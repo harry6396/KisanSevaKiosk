@@ -104,6 +104,7 @@ margin-left: 35px;
     max-width: 300px;
     margin-left: 950px;
     margin-top: 24px;
+    min-width: 300px;
 }
 
 .notice-board-heading{
