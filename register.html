@@ -1,50 +1,18 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Register</title>
-    <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
-<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
-<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
-<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js"></script>
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-<script src="jquery-3.3.1.min.js"></script>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-
-<!-- stylesheets -->
-<link rel="stylesheet" href="CSS/login.css">
-<link rel="stylesheet" href="CSS/common.css">
-<link rel="stylesheet" href="CSS/mainpage.css">
-<link rel="stylesheet" href="CSS/index.css">
-<link rel="stylesheet" href="CSS/register.css">
-
-
-<!-- script to include java script files-->
-<script src="JS/index.js" ></script>
-<script src="JS/common.js" ></script>
-<script src="JS/mainpage.js"></script>
-<script src="JS/register.js"></script>
-<script src="//code.jquery.com/jquery-2.1.4.min.js"></script>
-<script src="jQuery-plugin-progressbar.js"></script>
-</head>
-<body>
-    <div ng-app="myApp" ng-controller="register">
-    <div id="container" class="main-container">
-        <div class="heading">Register</div>
-        <div class="personal-information">
-        <div class="section-heading">Personal Information</div>
-        <div class="row">
-        <div ng-repeat="x in fields" class="column">
-            <div class="field-heading">{{x}}</div><input type="text" class="input-fields">
-        </div>
-        </div>
-        <div class="row">
-            <div class="column ">
-        <div class="field-heading">Category</div><select ng-model="selectedName" ng-options="x for x in category" class="dropdown"></select>
-        </div>
-    </div>
-        </div>
-    </div>
-    </div>
-</body>
-</html>
+<!DOCTYPE html>  
+<html xmlns="http://www.w3.org/1999/xhtml">  
+  
+<head>  
+    <title></title>  
+</head>  
+  
+<body>  
+    <div>  
+        <h1>Contact Page</h1>  
+        <br />  
+  
+        <p>{{ ContactMessage }}</p>  
+    </div>  
+  
+</body>  
+  
+</html> 
